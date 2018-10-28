@@ -1,0 +1,20 @@
+# POST http://127.0.0.1:8088/comment HTTP/1.1
+# content-type: application/json
+
+# {
+#     "author": "cws",
+#     "email": "1396679452@qq.com",
+#     "comment":"天王盖地虎",
+#     "comment_post_ID":"55592"
+# }
+
+
+POST http://127.0.0.1:8088/SetComment HTTP/1.1
+content-type: application/json
+
+{
+    "author": "laks",
+    "email": "21324165@qq.com",
+    "comment": "kajhsdkjahskdhkajs",
+    "comment_id": "3990367"
+}

@@ -1,0 +1,79 @@
+.index-duanzi{
+    width: @100;
+    background: @whitecolor;
+    .duanzi{
+        width: @100;
+        padding: 1.5rem 0 1rem;
+        .duanziheader{
+            height: 3.3rem;
+            width: @100;
+            img{
+                width: 3.3rem;
+                border-radius: 100%;
+            }
+            span{
+                height: 3.3rem;
+                line-height: 0.3rem;
+                vertical-align: middle;
+                display: inline-block;
+                margin-left: 1rem;
+                color: #9b9b9b;
+            }
+        }
+        .duanzicontent{
+            margin-top: 1rem;
+            line-height: 1.3rem;
+        }
+        .duanziaction{
+            line-height: 5rem;
+            display: flex;
+            width: @100;
+            align-items: center;
+            justify-content:space-between;
+            .action-left {
+                span{
+                    margin: 0 8px;
+                    vertical-align: super;
+                    line-height: 1px;
+                }
+            }
+        }
+        .duanicomment{
+            background: #c7f4fa6c;
+            padding: .3rem .45rem;
+            margin-bottom: .5rem;
+            border-radius: 5px;
+            .title{
+                font-weight: bold;
+                display: block;
+                text-align: center;
+            }
+            .list{
+                h4{
+                    height: 1.8rem;
+                    line-height: 1.5rem;
+                    margin: 0;
+                }
+                span{
+                    text-indent: 1em;
+                    display: inline-block;
+                }
+            }
+            .hiddenlist{
+                h4{
+                    margin: 10px;
+                    color: #f44336;
+                    // display: inline-block;
+                    text-align: center;
+                }
+            }
+        }
+        .border(#e3e3e3,bottom)
+    }
+    
+}
+.mu-fab-button.mu-button-small{
+    width: 28px;
+    height: 28px;
+    box-shadow: none;
+}
